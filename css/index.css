@@ -1,3 +1,73 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+body{
+    margin: 0 auto;
+    width: 800px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.iod{
+    font-size: 40px;
+    padding: 5%;
+    text-align: center;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	width: 160px;
+	height: 55px;
+	margin-bottom: 15%;
+}
+.cover{
+    display: flex;
+    flex-direction: row;
+}
+.pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+}
+.circle img{
+    display: flex;
+    margin: 3%;
+    margin-top: 20%;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+p{
+    width: 90%;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-between;
+}
+/* .top div{
+    justify-content: flex-end;
+} */
+.middle-img{
+    width: 100%;
+    padding: 5% 0;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+}
